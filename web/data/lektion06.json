@@ -1,0 +1,491 @@
+{
+  "lektion": "06",
+  "title": "Ich war so aufgeregt!",
+  "tasks": [
+    {
+      "id": "L1-01",
+      "level": 1,
+      "type": "match_pairs",
+      "instruction": "Was passt zusammen? Verbinde die Ausdrücke aus dem Bildlexikon.",
+      "pairs": [
+        ["ein Risiko", "eingehen"],
+        ["einen Traum", "verwirklichen"],
+        ["eine Idee", "umsetzen"],
+        ["Erfahrungen", "sammeln"],
+        ["einen Auftrag", "bekommen"],
+        ["etwas Neues", "wagen"]
+      ],
+      "hint": "Zwei Beispiele: Man geht ein Risiko ein und sammelt Erfahrungen. Und der Rest?",
+      "explanation": "ein Risiko eingehen · einen Traum verwirklichen · eine Idee umsetzen · Erfahrungen sammeln · einen Auftrag bekommen · etwas Neues wagen"
+    },
+    {
+      "id": "L1-02",
+      "level": 1,
+      "type": "gap_fill",
+      "instruction": "Ergänze das passende Verb.",
+      "text": "Ich mache nächsten Monat ein Praktikum, um ganz viele Erfahrungen zu ___.",
+      "answers": [["sammeln"]],
+      "bank": ["sammeln", "eingehen", "wagen", "bekommen"],
+      "hint": "Erfahrungen kann man „sammeln“ – wie Briefmarken.",
+      "explanation": "Erfahrungen sammeln = viel Neues erleben und lernen."
+    },
+    {
+      "id": "L1-03",
+      "level": 1,
+      "type": "gap_fill",
+      "instruction": "Ergänze das passende Verb.",
+      "text": "Mit 73 hat Lotti den Mut, etwas ganz Neues zu ___.",
+      "answers": [["wagen"]],
+      "bank": ["wagen", "sammeln", "umsetzen", "eingehen"],
+      "hint": "Man braucht Mut dafür …",
+      "explanation": "etwas Neues wagen = den Mut haben, etwas Neues auszuprobieren."
+    },
+    {
+      "id": "L1-04",
+      "level": 1,
+      "type": "multiple_choice",
+      "instruction": "Was bedeutet das?",
+      "question": "ein Risiko eingehen",
+      "options": [
+        "etwas tun, obwohl es vielleicht schiefgeht",
+        "ein Risiko immer vermeiden",
+        "sehr vorsichtig und langsam sein",
+        "ein Problem schnell lösen"
+      ],
+      "answer": 0,
+      "hint": "Wer ein Risiko eingeht, weiß nicht genau, ob alles gut geht.",
+      "explanation": "Bungee-Jumping, ein eigenes Café, freiberuflich arbeiten … – man geht ein Risiko ein."
+    },
+    {
+      "id": "L1-05",
+      "level": 1,
+      "type": "gap_fill",
+      "instruction": "Ergänze die Lücken.",
+      "text": "Wer ___ arbeitet, hat keinen Chef. Wer fest ___ ist, bekommt jeden Monat ein Gehalt.",
+      "answers": [["freiberuflich", "selbstständig"], ["angestellt"]],
+      "bank": ["freiberuflich", "angestellt", "arbeitslos", "zuständig"],
+      "hint": "Das Gegenteil von „fest angestellt sein“ ist …",
+      "explanation": "freiberuflich arbeiten ↔ fest angestellt sein."
+    },
+    {
+      "id": "L1-06",
+      "level": 1,
+      "type": "match_pairs",
+      "instruction": "Welche Präposition passt zu welchem Ausdruck?",
+      "pairs": [
+        ["sich kümmern", "um"],
+        ["zuständig sein", "für"],
+        ["Angst haben", "vor"],
+        ["nachdenken", "über"],
+        ["überzeugt sein", "von"]
+      ],
+      "hint": "Ich kümmere mich ___ alles. Ich bin ___ dem Erfolg überzeugt.",
+      "explanation": "sich kümmern um + Akk. · zuständig sein für + Akk. · Angst haben vor + Dat. · nachdenken über + Akk. · überzeugt sein von + Dat."
+    },
+    {
+      "id": "L1-07",
+      "level": 1,
+      "type": "gap_fill",
+      "instruction": "Ergänze die Präposition.",
+      "text": "Als Freiberuflerin muss man sich ___ alles selbst kümmern: Steuern, Versicherung, Aufträge …",
+      "answers": [["um"]],
+      "bank": ["um", "für", "von", "auf"],
+      "hint": "sich kümmern + ?",
+      "explanation": "sich kümmern um + Akkusativ: Ich kümmere mich um meine Steuern."
+    },
+    {
+      "id": "L1-08",
+      "level": 1,
+      "type": "multiple_choice",
+      "instruction": "Welches Wort passt?",
+      "question": "Niemand sagt ihr, was sie tun muss. Sie kann ihre Zeit frei einteilen. Sie ist …",
+      "options": ["unabhängig.", "abhängig.", "angestellt.", "zuständig."],
+      "answer": 0,
+      "hint": "Franziska schreibt im Forum: „Na ja, auf jeden Fall bist du …“",
+      "explanation": "unabhängig = frei, niemand bestimmt über dich."
+    },
+    {
+      "id": "L1-09",
+      "level": 1,
+      "type": "gap_fill",
+      "instruction": "Ergänze das passende Nomen.",
+      "text": "Endlich! Eine große Firma hat mich angerufen – ich habe meinen ersten ___ bekommen!",
+      "answers": [["Auftrag"]],
+      "bank": ["Auftrag", "Traum", "Risiko", "Mut"],
+      "hint": "Für Freiberufler ist das wichtig: Eine Firma gibt ihnen Arbeit.",
+      "explanation": "einen Auftrag bekommen = Arbeit von einem Kunden bekommen."
+    },
+    {
+      "id": "L1-10",
+      "level": 1,
+      "type": "word_order",
+      "instruction": "Bring die Wörter in die richtige Reihenfolge.",
+      "words": ["Ich", "möchte", "endlich", "meinen", "Traum", "verwirklichen."],
+      "accepted": [
+        "Endlich möchte ich meinen Traum verwirklichen.",
+        "Meinen Traum möchte ich endlich verwirklichen."
+      ],
+      "hint": "Das Modalverb steht auf Position 2, der Infinitiv am Ende.",
+      "explanation": "Modalverb (möchte) auf Position 2 – Infinitiv (verwirklichen) am Satzende."
+    },
+
+    {
+      "id": "L2-01",
+      "level": 2,
+      "type": "multiple_choice",
+      "instruction": "Was macht die Person?",
+      "question": "„Das schaffst du bestimmt! Da bin ich sehr zuversichtlich!“",
+      "options": ["Sie macht Mut.", "Sie bewertet etwas kritisch.", "Sie stellt eine Frage.", "Sie erzählt von sich."],
+      "answer": 0,
+      "hint": "Ist die Person optimistisch oder skeptisch?",
+      "explanation": "„Da bin ich sehr zuversichtlich!“ ist ein typischer Ausdruck zum Mut machen."
+    },
+    {
+      "id": "L2-02",
+      "level": 2,
+      "type": "multiple_choice",
+      "instruction": "Was macht die Person?",
+      "question": "„Also, ich bezweifle, dass das klappt.“",
+      "options": ["Sie bewertet etwas kritisch.", "Sie macht Mut.", "Sie bedankt sich.", "Sie gibt einen Tipp."],
+      "answer": 0,
+      "hint": "bezweifeln = nicht glauben, dass etwas stimmt.",
+      "explanation": "„Ich bezweifle, dass …“ ist ein Ausdruck, um etwas kritisch zu bewerten."
+    },
+    {
+      "id": "L2-03",
+      "level": 2,
+      "type": "gap_fill",
+      "instruction": "Ergänze den Ausdruck.",
+      "text": "Also, ich bin mir nicht ___, ob das klappt.",
+      "answers": [["sicher"]],
+      "bank": ["sicher", "überzeugt", "zuversichtlich", "kritisch"],
+      "hint": "Nach diesem Wort kommt „ob“.",
+      "explanation": "Ich bin mir nicht sicher, ob … = Ich weiß nicht, ob …"
+    },
+    {
+      "id": "L2-04",
+      "level": 2,
+      "type": "gap_fill",
+      "instruction": "Mach Mut! Ergänze das passende Wort.",
+      "text": "Du hast so viele gute Ideen. Das schaffst du! Da bin ich sehr ___!",
+      "answers": [["zuversichtlich"]],
+      "bank": ["zuversichtlich", "unsicher", "kritisch", "ängstlich"],
+      "hint": "Das Wort bedeutet „optimistisch“.",
+      "explanation": "zuversichtlich = optimistisch, voller Hoffnung."
+    },
+    {
+      "id": "L2-05",
+      "level": 2,
+      "type": "gap_fill",
+      "instruction": "Ergänze das passende Wort.",
+      "text": "Ich bin ___ überzeugt, dass alles gut gehen wird!",
+      "answers": [["davon"]],
+      "bank": ["davon", "dafür", "darauf", "damit"],
+      "hint": "überzeugt sein + von → da + …",
+      "explanation": "überzeugt sein von → Ich bin davon überzeugt, dass …"
+    },
+    {
+      "id": "L2-06",
+      "level": 2,
+      "type": "word_order",
+      "instruction": "Bring die Wörter in die richtige Reihenfolge.",
+      "words": ["Ich", "kann", "gut", "verstehen,", "dass", "du", "unsicher", "bist."],
+      "hint": "Im Nebensatz mit „dass“ steht das Verb am Ende.",
+      "explanation": "Hauptsatz + Nebensatz: …, dass du unsicher bist. (Verb am Ende)"
+    },
+    {
+      "id": "L2-07",
+      "level": 2,
+      "type": "word_order",
+      "instruction": "Bring die Wörter in die richtige Reihenfolge.",
+      "words": ["Man", "muss", "auch", "sehen,", "dass", "das", "Risiko", "sehr", "groß", "ist."],
+      "hint": "Beginne mit „Man muss auch sehen, …“.",
+      "explanation": "„Man muss auch sehen, dass …“ – ein Ausdruck, um etwas kritisch zu bewerten."
+    },
+    {
+      "id": "L2-08",
+      "level": 2,
+      "type": "word_order",
+      "instruction": "Bring die Wörter in die richtige Reihenfolge.",
+      "words": ["Ich", "denke,", "dass", "das", "kaum", "möglich", "ist."],
+      "hint": "„kaum möglich“ steht direkt vor dem Verb.",
+      "explanation": "Ich denke, dass das kaum möglich ist. – kaum = fast nicht."
+    },
+    {
+      "id": "L2-09",
+      "level": 2,
+      "type": "gap_fill",
+      "instruction": "Welche Form passt?",
+      "text": "Ich bin absolut sicher, dass es ___ wird.",
+      "answers": [["gelingen"]],
+      "bank": ["gelingen", "gelingt", "gelungen", "gelang"],
+      "hint": "werden + Infinitiv = Futur.",
+      "explanation": "Futur I: es wird gelingen (werden + Infinitiv)."
+    },
+    {
+      "id": "L2-10",
+      "level": 2,
+      "type": "multiple_choice",
+      "instruction": "Welche Antwort macht Leon Mut?",
+      "question": "Leon: „Soll ich wirklich meinen Job kündigen und Reiseblogger werden?“",
+      "options": [
+        "Ja! Ich bin davon überzeugt, dass du das schaffst.",
+        "Also, ich bezweifle, dass das klappt.",
+        "Ich denke, dass das kaum möglich ist.",
+        "Man muss auch sehen, dass du dann kein festes Gehalt hast."
+      ],
+      "answer": 0,
+      "hint": "Drei Antworten sind kritisch, nur eine ist optimistisch.",
+      "explanation": "„Ich bin davon überzeugt, dass …“ macht Mut. Die anderen Sätze bewerten kritisch."
+    },
+    {
+      "id": "L2-11",
+      "level": 2,
+      "type": "word_order",
+      "instruction": "Bring die Wörter in die richtige Reihenfolge.",
+      "words": ["Ich", "finde", "es", "super,", "dass", "ihr", "zusammen", "einen", "Videoblog", "macht."],
+      "hint": "„Ich finde es super, dass …“ – und das Verb kommt ans Ende.",
+      "explanation": "Ich finde es super, dass ihr zusammen einen Videoblog macht. (Verb „macht“ am Ende)"
+    },
+
+    {
+      "id": "L3-01",
+      "level": 3,
+      "type": "multiple_choice",
+      "instruction": "Welches Wort passt in die Lücke?",
+      "question": "___ ich kein Wort Deutsch konnte, bin ich nach Deutschland gekommen.",
+      "options": ["Obwohl", "Trotzdem", "Deshalb", "Weil"],
+      "answer": 0,
+      "hint": "Das Verb „konnte“ steht am Ende – es ist ein Nebensatz.",
+      "explanation": "obwohl leitet einen Nebensatz ein → das Verb steht am Ende: obwohl ich kein Wort Deutsch konnte."
+    },
+    {
+      "id": "L3-02",
+      "level": 3,
+      "type": "multiple_choice",
+      "instruction": "Welches Wort passt in die Lücke?",
+      "question": "Ich hatte große Angst. ___ habe ich Bungee-Jumping gemacht.",
+      "options": ["Trotzdem", "Obwohl", "Weil", "Dass"],
+      "answer": 0,
+      "hint": "Nach der Lücke kommt sofort das Verb „habe“.",
+      "explanation": "trotzdem steht auf Position 1 im Hauptsatz → danach kommt das Verb: Trotzdem habe ich …"
+    },
+    {
+      "id": "L3-03",
+      "level": 3,
+      "type": "match_pairs",
+      "instruction": "Lotti und Rafa erzählen. Was passt zusammen?",
+      "pairs": [
+        ["Vor vier Jahren bin ich nach Deutschland gekommen,", "obwohl ich kein Wort Deutsch konnte."],
+        ["Immerhin bin ich schon 73,", "obwohl ich mich gar nicht so fühle."],
+        ["Rafa ist einfach der Experte,", "obwohl ich mich durch meinen Blog im Internet schon ganz gut auskenne."],
+        ["Du nimmst mich immer in allem ernst,", "obwohl ich viel weniger Lebenserfahrung habe."]
+      ],
+      "hint": "Wer ist jung, wer ist 73? Wer kam aus dem Ausland?",
+      "explanation": "Im obwohl-Satz steht das Verb am Ende: konnte, fühle, auskenne, habe."
+    },
+    {
+      "id": "L3-04",
+      "level": 3,
+      "type": "gap_fill",
+      "instruction": "Ergänze die richtige Verbform.",
+      "text": "Sie arbeitet freiberuflich, obwohl das Risiko groß ___.",
+      "answers": [["ist"]],
+      "bank": ["ist", "sein", "hat", "haben"],
+      "hint": "das Risiko = er/sie/es → sein in der 3. Person.",
+      "explanation": "obwohl + Nebensatz: …, obwohl das Risiko groß ist."
+    },
+    {
+      "id": "L3-05",
+      "level": 3,
+      "type": "word_order",
+      "instruction": "Bring die Wörter in die richtige Reihenfolge.",
+      "words": ["Obwohl", "ich", "nicht", "begabt", "bin,", "will", "ich", "nähen", "lernen."],
+      "hint": "Der Satz beginnt mit dem Nebensatz. Danach kommt im Hauptsatz zuerst das Verb.",
+      "explanation": "Obwohl-Satz zuerst → Verb am Ende (bin), dann Hauptsatz mit Verb vorn: will ich …"
+    },
+    {
+      "id": "L3-06",
+      "level": 3,
+      "type": "word_order",
+      "instruction": "Bring die Wörter in die richtige Reihenfolge.",
+      "context": "Ich fliege nicht gern.",
+      "words": ["Trotzdem", "möchte", "ich", "alle", "Hauptstädte", "der", "Welt", "besuchen."],
+      "accepted": ["Ich möchte trotzdem alle Hauptstädte der Welt besuchen."],
+      "hint": "Trotzdem + Verb + Subjekt …",
+      "explanation": "Trotzdem möchte ich … – nach trotzdem kommt direkt das Verb."
+    },
+    {
+      "id": "L3-07",
+      "level": 3,
+      "type": "sentence_transform",
+      "instruction": "Schreib den Satz neu – mit „obwohl“.",
+      "source": "Ich bin schüchtern. Trotzdem möchte ich einer berühmten Person begegnen.",
+      "accepted": [
+        "Obwohl ich schüchtern bin, möchte ich einer berühmten Person begegnen.",
+        "Ich möchte einer berühmten Person begegnen, obwohl ich schüchtern bin."
+      ],
+      "hint": "Obwohl ich schüchtern ___, möchte ich …",
+      "explanation": "Obwohl ich schüchtern bin, möchte ich einer berühmten Person begegnen. (Verb „bin“ am Ende des Nebensatzes)"
+    },
+    {
+      "id": "L3-08",
+      "level": 3,
+      "type": "sentence_transform",
+      "instruction": "Schreib den Satz neu – mit „trotzdem“.",
+      "source": "Obwohl Leon unsicher ist, will er seinen Job kündigen.",
+      "accepted": [
+        "Leon ist unsicher. Trotzdem will er seinen Job kündigen.",
+        "Leon ist unsicher, trotzdem will er seinen Job kündigen.",
+        "Leon ist unsicher. Er will trotzdem seinen Job kündigen.",
+        "Leon ist unsicher, er will trotzdem seinen Job kündigen.",
+        "Leon ist unsicher, aber er will trotzdem seinen Job kündigen.",
+        "Leon ist unsicher. Aber er will trotzdem seinen Job kündigen.",
+        "Leon ist unsicher, aber trotzdem will er seinen Job kündigen.",
+        "Leon ist unsicher. Er will seinen Job trotzdem kündigen.",
+        "Leon ist unsicher, aber er will seinen Job trotzdem kündigen."
+      ],
+      "hint": "Zwei Hauptsätze: Leon ist unsicher. Trotzdem …",
+      "explanation": "Leon ist unsicher. Trotzdem will er seinen Job kündigen. (trotzdem + Verb)"
+    },
+    {
+      "id": "L3-09",
+      "level": 3,
+      "type": "sentence_transform",
+      "instruction": "Verbinde die Sätze mit „obwohl“.",
+      "source": "Franziska verdient nicht viel. Sie liebt ihre Arbeit.",
+      "accepted": [
+        "Obwohl Franziska nicht viel verdient, liebt sie ihre Arbeit.",
+        "Franziska liebt ihre Arbeit, obwohl sie nicht viel verdient.",
+        "Obwohl sie nicht viel verdient, liebt Franziska ihre Arbeit."
+      ],
+      "hint": "Was ist überraschend? Sie liebt ihre Arbeit – obwohl …",
+      "explanation": "Franziska liebt ihre Arbeit, obwohl sie nicht viel verdient. (Verb „verdient“ am Ende)"
+    },
+    {
+      "id": "L3-10",
+      "level": 3,
+      "type": "multiple_choice",
+      "instruction": "Welcher Satz ist richtig?",
+      "options": [
+        "Obwohl es regnet, gehen wir spazieren.",
+        "Obwohl es regnet, wir gehen spazieren.",
+        "Obwohl regnet es, gehen wir spazieren.",
+        "Trotzdem es regnet, gehen wir spazieren."
+      ],
+      "answer": 0,
+      "hint": "Nebensatz: Verb am Ende. Danach im Hauptsatz: Verb zuerst.",
+      "explanation": "Obwohl es regnet, gehen wir spazieren. – „regnet“ am Ende, dann „gehen“ direkt nach dem Komma."
+    },
+
+    {
+      "id": "L4-01",
+      "level": 4,
+      "type": "sentence_transform",
+      "instruction": "Verbinde die Sätze mit „obwohl“.",
+      "source": "Yolanda arbeitet mehr als früher. Sie ist glücklich.",
+      "accepted": [
+        "Obwohl Yolanda mehr als früher arbeitet, ist sie glücklich.",
+        "Obwohl Yolanda mehr arbeitet als früher, ist sie glücklich.",
+        "Yolanda ist glücklich, obwohl sie mehr als früher arbeitet.",
+        "Yolanda ist glücklich, obwohl sie mehr arbeitet als früher.",
+        "Obwohl sie mehr als früher arbeitet, ist Yolanda glücklich.",
+        "Obwohl sie mehr arbeitet als früher, ist Yolanda glücklich."
+      ],
+      "hint": "Yolanda ist glücklich, obwohl …",
+      "explanation": "Yolanda ist glücklich, obwohl sie mehr als früher arbeitet."
+    },
+    {
+      "id": "L4-02",
+      "level": 4,
+      "type": "gap_fill",
+      "instruction": "Ergänze die richtigen Verbformen.",
+      "text": "Obwohl Milena kein festes Gehalt ___, ist sie glücklich. Sie ___ trotzdem ganz gut.",
+      "answers": [["hat"], ["verdient"]],
+      "bank": ["hat", "verdient", "haben", "verdienen"],
+      "hint": "Milena = sie → 3. Person Singular.",
+      "explanation": "Obwohl Milena kein festes Gehalt hat (Verb am Ende), … Sie verdient trotzdem ganz gut (Verb auf Position 2)."
+    },
+    {
+      "id": "L4-03",
+      "level": 4,
+      "type": "word_order",
+      "instruction": "Bring die Wörter in die richtige Reihenfolge.",
+      "words": ["Obwohl", "ich", "mich", "im", "Internet", "gut", "auskenne,", "ist", "Rafa", "der", "Experte."],
+      "accepted": ["Obwohl ich mich gut im Internet auskenne, ist Rafa der Experte."],
+      "hint": "Das trennbare Verb „auskennen“ steht im Nebensatz zusammen am Ende.",
+      "explanation": "Im Nebensatz bleibt das trennbare Verb zusammen: …, obwohl ich mich gut auskenne."
+    },
+    {
+      "id": "L4-04",
+      "level": 4,
+      "type": "multiple_choice",
+      "instruction": "Lies den Forumsbeitrag. Was möchte Leon?",
+      "context": "Leon96: „Ich würde gern meinen Traum verwirklichen und meinen Job als Angestellter aufgeben. Ich könnte mir vorstellen, als Blogger zu arbeiten und meinen eigenen Reiseblog zu starten.“",
+      "options": [
+        "Er möchte freiberuflich als Reiseblogger arbeiten.",
+        "Er möchte eine neue Stelle als Angestellter finden.",
+        "Er möchte mehr Blogs über Reisen lesen.",
+        "Er möchte seinen Chef um mehr Urlaub bitten."
+      ],
+      "answer": 0,
+      "hint": "Was möchte Leon aufgeben und was möchte er starten?",
+      "explanation": "Leon möchte seinen Job aufgeben und mit einem Reiseblog freiberuflich arbeiten."
+    },
+    {
+      "id": "L4-05",
+      "level": 4,
+      "type": "multiple_choice",
+      "instruction": "Was meint Jerin?",
+      "context": "Jerin: „Ich stelle mir die Freiberuflichkeit ziemlich einsam vor. Keine Kolleg:innen, nicht viel Austausch …“",
+      "options": [
+        "Er glaubt, dass man als Freiberufler oft allein arbeitet.",
+        "Er findet die Freiberuflichkeit sehr lustig.",
+        "Er möchte gern allein wohnen.",
+        "Er arbeitet schon lange freiberuflich."
+      ],
+      "answer": 0,
+      "hint": "einsam = allein, ohne andere Menschen.",
+      "explanation": "Jerin bewertet kritisch: Ohne Kolleg:innen ist man oft allein."
+    },
+    {
+      "id": "L4-06",
+      "level": 4,
+      "type": "free_writing",
+      "instruction": "Antworte Leon und mach ihm Mut! Schreib 2–3 Sätze.",
+      "question": "Leon fragt: „Soll ich meinen Job aufgeben und Reiseblogger werden?“",
+      "min_words": 15,
+      "checklist": [
+        { "text": "Benutze einen Ausdruck zum Mut machen (z. B. „Da bin ich sehr zuversichtlich!“).", "pattern": "zuversichtlich|überzeugt|bestimmt|sicher|schaffst|gelingen" },
+        { "text": "Schreib einen Satz mit „obwohl“ oder „trotzdem“.", "pattern": "obwohl|trotzdem" }
+      ],
+      "model_answer": "Hallo Leon, ich kann gut verstehen, dass du unsicher bist. Obwohl das Risiko groß ist, solltest du es versuchen – du kannst so viele Erfahrungen sammeln! Ich bin davon überzeugt, dass du das schaffst. Da bin ich sehr zuversichtlich!"
+    },
+    {
+      "id": "L4-07",
+      "level": 4,
+      "type": "free_writing",
+      "instruction": "Jetzt bist du kritisch: Schreib Leon, was die Nachteile sind. Schreib 2–3 Sätze.",
+      "question": "Die Sphinx fragt: „Was spricht gegen Leons Plan?“",
+      "min_words": 15,
+      "checklist": [
+        { "text": "Benutze einen Ausdruck zum kritischen Bewerten (z. B. „Ich bezweifle, dass …“, „Man muss auch sehen, dass …“).", "pattern": "bezweifle|nicht sicher|muss auch sehen|kaum möglich|denke, dass" },
+        { "text": "Nenne mindestens einen Nachteil (z. B. Steuern, Versicherung, kein Urlaub, allein arbeiten).", "pattern": "steuer|versicherung|urlaub|allein|einsam|geld|gehalt|risiko|papierkram|auftr" }
+      ],
+      "model_answer": "Also, ich bin mir nicht sicher, ob das klappt. Man muss auch sehen, dass du dich um alles selbst kümmern musst, zum Beispiel um Steuern und die Krankenversicherung. Außerdem bekommst du keinen bezahlten Urlaub. Ich bezweifle, dass du am Anfang genug Aufträge bekommst."
+    },
+    {
+      "id": "L4-08",
+      "level": 4,
+      "type": "free_writing",
+      "instruction": "Welchen Traum möchtest du unbedingt verwirklichen? Warum hast du es noch nicht gemacht? Schreib 3–4 Sätze mit „obwohl“ oder „trotzdem“.",
+      "question": "Die Sphinx fragt: „Erzähl mir von deinem Traum!“",
+      "min_words": 20,
+      "checklist": [
+        { "text": "Schreib, was dein Traum ist (z. B. „Ich will unbedingt einmal …“).", "pattern": "unbedingt|traum|möchte|will|würde gern" },
+        { "text": "Benutze „obwohl“ oder „trotzdem“.", "pattern": "obwohl|trotzdem" }
+      ],
+      "model_answer": "Ich möchte unbedingt einmal nach Japan reisen. Obwohl ich nicht viel Geld habe, spare ich jeden Monat ein bisschen. Ich spreche kein Japanisch und fliege nicht gern. Trotzdem will ich diesen Traum bald verwirklichen!"
+    }
+  ]
+}

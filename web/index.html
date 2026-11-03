@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schloss Sprachenstein</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,700;1,400&family=MedievalSharp&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="stage">
+      <canvas id="game" width="960" height="544"></canvas>
+
+      <div id="hud" hidden>
+        <div class="hud-left">
+          <span id="hud-hearts"></span>
+          <span id="hud-stars"></span>
+        </div>
+        <div id="hud-level"></div>
+        <div class="hud-right">
+          <span id="hud-tasks"></span>
+          <button id="btn-sound" class="hud-btn" title="Ton an/aus">♪</button>
+          <button id="btn-pause" class="hud-btn" title="Pause (Esc)">❚❚</button>
+        </div>
+      </div>
+
+      <div id="toast" hidden></div>
+
+      <div id="touch" hidden>
+        <button data-key="left" aria-label="links">◀</button>
+        <button data-key="right" aria-label="rechts">▶</button>
+        <button data-key="jump" class="jump" aria-label="springen">▲</button>
+      </div>
+    </div>
+
+    <!-- Main menu -->
+    <section id="menu" class="screen">
+      <div class="parchment wide">
+        <h1>Schloss Sprachenstein</h1>
+        <p class="subtitle">Die Zauberschule für Deutsch · B1</p>
+
+        <label class="field">
+          <span>Wie heißt du?</span>
+          <input id="player-name" type="text" maxlength="30" autocomplete="off" placeholder="Dein Name">
+        </label>
+
+        <h2>Wähle deine Figur</h2>
+        <div id="characters" class="cards"></div>
+
+        <h2>Lektion</h2>
+        <select id="lektion-select"></select>
+
+        <h2>Wähle ein Level</h2>
+        <div id="levels" class="cards levels"></div>
+
+        <p class="controls-help">Steuerung: ← → oder A / D laufen · Leertaste oder ↑ springen · Esc Pause</p>
+      </div>
+    </section>
+
+    <!-- Task modal -->
+    <section id="task" class="screen" hidden>
+      <div class="parchment">
+        <div class="seal">✦</div>
+        <p id="task-meta" class="meta"></p>
+        <h2 id="task-instruction"></h2>
+        <div id="task-body"></div>
+        <div id="task-feedback" class="feedback" hidden></div>
+        <div class="actions">
+          <button id="task-check" class="btn primary">Prüfen</button>
+          <button id="task-next" class="btn primary" hidden>Weiter ➜</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pause -->
+    <section id="pause" class="screen" hidden>
+      <div class="parchment narrow">
+        <h2>Pause</h2>
+        <div class="actions column">
+          <button id="pause-resume" class="btn primary">Weiterspielen</button>
+          <button id="pause-menu" class="btn">Zum Menü</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Level summary -->
+    <section id="summary" class="screen" hidden>
+      <div class="parchment">
+        <h2 id="summary-title">Level geschafft!</h2>
+        <div id="summary-stats" class="stats"></div>
+        <div id="summary-writing"></div>
+        <div class="actions">
+          <button id="summary-menu" class="btn">Zum Menü</button>
+          <button id="summary-next" class="btn primary">Nächstes Level ➜</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

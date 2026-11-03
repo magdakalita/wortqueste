@@ -1,13 +1,15 @@
 [project]
 name = "spiel"
 version = "0.1.0"
-description = "Add your description here"
+description = "Schloss Sprachenstein – a browser platformer for learning German (B1)"
 readme = "README.md"
 authors = [
     { name = "magdalee", email = "magkalita@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "anthropic>=2.4.0",
+]
 
 [project.scripts]
 spiel = "spiel:main"
