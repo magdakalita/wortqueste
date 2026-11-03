@@ -1,7 +1,7 @@
 [project]
 name = "spiel"
 version = "0.1.0"
-description = "Schloss Sprachenstein – a browser platformer for learning German (B1)"
+description = "Die Wortqueste – a browser platformer for learning German (B1)"
 readme = "README.md"
 authors = [
     { name = "magdalee", email = "magkalita@gmail.com" }

@@ -70,7 +70,7 @@ def cmd_generate(args) -> int:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(prog="spiel", description="Tasks for the Schloss Sprachenstein game.")
+    parser = argparse.ArgumentParser(prog="spiel", description="Tasks for the Wortqueste game.")
     sub = parser.add_subparsers(required=True)
 
     p = sub.add_parser("generate", help="generate tasks from textbook pages (needs Claude API access)")

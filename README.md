@@ -1,6 +1,8 @@
-# Schloss Sprachenstein
+# Die Wortqueste
 
 Gra platformowa w przeglądarce do nauki niemieckiego (B1). Uczennica wybiera czarodzieja i biega po magicznym zamku – zaczarowane drzwi otwierają się dopiero po rozwiązaniu zadania z ostatniej Lektion, a latające księgi zaklęć dają zadania bonusowe. Na końcu wieży sfinks zadaje pytania pisemne.
+
+Zagraj: <https://magdakalita.github.io/wortqueste/>
 
 - 4 poziomy o rosnącej trudności: Wortschatz → Redemittel & Satzbau → Grammatik → Schreiben
 - 6 typów zadań: uzupełnianie luk, układanie wyrazów, dopasowywanie par, wybór odpowiedzi, przekształcanie zdań, odpowiedź pisemna
